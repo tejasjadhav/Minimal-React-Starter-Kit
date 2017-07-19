@@ -8,7 +8,8 @@
     "test:lint": "eslint . --ext .js --ext .jsx --ext .scss --cache",
     "build": "webpack -p",
     "build-dev": "webpack",
-    "start-dev": "webpack -w"
+    "start-dev": "webpack -w",
+    "dev-server": "webpack-dev-server --inline --hot --content-base build --port 8000"
   },
   "keywords": [
     "react",
